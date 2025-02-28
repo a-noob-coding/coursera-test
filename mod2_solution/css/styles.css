@@ -1,4 +1,72 @@
-#main-title {
+body {
+    box-sizing: border-box;
+}
+
+h1 {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.content-box {
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: pink;
+    padding-top: 3%;
+}
+
+.item-title {
+    position: absolute;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    top: -19.92px;
+    right: 0;
+}
+
+#title-one {
+    background-color: red;
+}
+
+#title-two {
+    background-color: purple;
+}
+
+#title-three {
+    background-color: yellow;
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        float: left;
+        width: 25%;
+        height: 180px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 48%;
+        height: 180px;
+    }
+
+    .col-md-1 {
+        float: left;
+        width: 97%;
+        height: 180px;
+    }
+
+} 
+
+@media (max-width: 767px) {
+
 }
